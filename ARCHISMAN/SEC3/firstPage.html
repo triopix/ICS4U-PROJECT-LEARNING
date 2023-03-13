@@ -17,16 +17,29 @@
     <h1>Chicken</h1>
 
     <!-- Example of img tag - takes the src="" attr-->
-    <img src="res/chicken.jpg" alt="An image of a two baby chicks with hats">  <!--Local image-->
-    
+    <img src="res/chicken.jpg" alt="An image of a two baby chicks with hats" />
+    <!--Local image-->
+
     <!--Another image from global website - Wikipedia-->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Red_Junglefowl_%28male%29-9858%2C_crop.jpg/1280px-Red_Junglefowl_%28male%29-9858%2C_crop.jpg" alt="Picture of a species of a junglefowl">
-    
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Red_Junglefowl_%28male%29-9858%2C_crop.jpg/1280px-Red_Junglefowl_%28male%29-9858%2C_crop.jpg"
+      alt="Picture of a species of a junglefowl"
+    />
 
     <!-- Making a link-->
     <!-- We need an attribute that is added to a tag like href=""-->
-    <a href="https://www.google.com">I am a link TO GOOGLE</a>
-    <a href="about.html">This is my ABOUT page</a>
+
+    <!--Using <div> - block level elements - instead of inline-->
+    <!--<div> is a container, allows us to group elements together and style them at once - CSS-->
+    <div>
+
+      <!--Using <span>-->
+      <!--<span> is a generic inline container, which doesn't necessarily represent anything-->
+      <!--Very useful for styling purposes-->
+      <!--<div> is a block level container and <span> is an inline level container-->
+      <a href="https://www.google.com">I am a link TO <span>GOOGLE</span></a>
+      <a href="about.html">This is my ABOUT page</a>
+    </div>
 
     <h2>An <em>Introduction</em></h2>
 
@@ -85,7 +98,6 @@
           <li>Polish</li>
         </ul>
       </li>
-      
     </ul>
   </body>
 </html>
