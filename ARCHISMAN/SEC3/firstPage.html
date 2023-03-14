@@ -16,6 +16,9 @@
     <!-- Body includes all the elements that you would see in the document-->
     <h1>Chicken</h1>
 
+    <!--<hr> horizontal rule - thematic element-->
+    <hr>
+
     <!-- Example of img tag - takes the src="" attr-->
     <img src="res/chicken.jpg" alt="An image of a two baby chicks with hats" />
     <!--Local image-->
@@ -32,7 +35,6 @@
     <!--Using <div> - block level elements - instead of inline-->
     <!--<div> is a container, allows us to group elements together and style them at once - CSS-->
     <div>
-
       <!--Using <span>-->
       <!--<span> is a generic inline container, which doesn't necessarily represent anything-->
       <!--Very useful for styling purposes-->
@@ -45,10 +47,12 @@
 
     <!-- Don't put header tags in <p> tags as well-->
     <p>
-      (Gallus gallus domesticus) is a domesticated junglefowl species, with
-      attributes of wild species such as the grey and the Ceylon junglefowl that
-      are originally from Southeast Asia. Rooster and cock are terms for adult
-      male birds, and a younger male may be called a cockerel.
+
+      <!-- Using <br> line breaks-->
+      (Gallus gallus domesticus) is a domesticated junglefowl species, with <br>
+      attributes of wild species such as the grey and the Ceylon junglefowl that <br>
+      are originally from Southeast Asia. Rooster and cock are terms for adult <br>
+      male birds, and a younger male may be called a cockerel. <br>
     </p>
 
     <h2>General Biology and Habitat</h2>
@@ -64,7 +68,9 @@
       the word for domestic chicken (*manuk) is part of the reconstructed
       Proto-Austronesian language (see Austronesian languages). Chickens,
       together with dogs and pigs, were the domestic animals of the Lapita
-      culture,[26] the first Neolithic culture of Oceania.[27] The first
+
+      <!--[27] treated as superscript - and adding a link-->
+      culture,[26] the first Neolithic culture of Oceania.<sup><a href="https://www.Wikipedia.org">[27]</a></sup> The first
       pictures of chickens in Europe are found on Corinthian pottery of the 7th
       century BC.[28][29] Chickens were spread by Polynesian seafarers and
       reached Easter Island in the 12th century AD, where they were the only
@@ -99,5 +105,11 @@
         </ul>
       </li>
     </ul>
+
+    <!--Using subscripts-->
+    <h2>I like H<sub>2</sub>O</h1>
+
+      <!--Writing fractions using sub and sup-->
+    <p><sup>1</sup>/<sub>2</sub> + <sup>1</sup>/<sub>2</sub> = 1</p>
   </body>
 </html>
